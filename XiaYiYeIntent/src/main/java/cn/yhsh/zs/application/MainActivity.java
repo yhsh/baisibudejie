@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 wv_pager.setWebViewClient(new WebViewClient() {
                     @Override
                     public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                        //返回值是true的时候控制去WebView打开，为false调用系统浏览器或第三方浏览器。
+                        //返回值是true的时候控制去WebView打开，为false调用系统浏览器或第三方浏览器
                         view.loadUrl(url);
                         return true;
                     }
