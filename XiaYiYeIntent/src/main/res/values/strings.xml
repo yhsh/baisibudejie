@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">下一页上网</string>
+    <string name="browber_url">请输入网址</string>
+    <string name="browber_enter">打开网页</string>
+</resources>
