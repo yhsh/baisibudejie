@@ -16,6 +16,8 @@ import java.util.List;
 /**
  * 仿淘宝首页的 淘宝头条滚动的自定义View
  * Created by mengwei on 2016/7/20.
+ * 修改作者：轻飞扬
+ * QQ：13343401268
  */
 public class MainActivity extends AppCompatActivity {
 
