@@ -27,7 +27,7 @@ public class HomeActivity extends AppCompatActivity implements TabHost.OnTabChan
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-//        requestWindowFeature(Window.FEATURE_NO_TITLE);//去除标题栏，还可以使用主题
+//        requestWindowFeature(Window.FEATURE_NO_TITLE);//去除标题栏，还可以使用主题的方法
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         initData();

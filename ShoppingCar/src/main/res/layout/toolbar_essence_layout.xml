@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="@dimen/margin_left_12_dp"
+            android:src="@drawable/main_essence_btn_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="128dp"
+            android:layout_height="22dp"
+            android:background="@mipmap/main_essence_title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="@dimen/margin_left_12_dp"
+            android:src="@drawable/main_essence_btn_more_selector" />
+    </LinearLayout>
+    <!-- <RadioGroup
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <RadioButton
+             android:text="是"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+     </RadioGroup>-->
+    <!--<CheckBox
+        android:text="测试"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+
+</LinearLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/radiobutton_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@android:drawable/title_bar"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18dip"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:paddingLeft="30dip"
+            android:text="Android新手"
+            android:textSize="20dip" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="?android:attr/listDivider" />
+
+        <RadioButton
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:paddingLeft="30dip"
+            android:text="Android高手"
+            android:textSize="20dip" />
+    </RadioGroup>
+
+</LinearLayout>  -->
